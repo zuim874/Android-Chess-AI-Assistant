@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llFloatRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/float_window_bg"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <!-- 状态行 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="6dp">
+
+        <TextView
+            android:id="@+id/tvFloatStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="●"
+            android:textColor="#F44336"
+            android:textSize="14sp"
+            android:layout_marginEnd="6dp" />
+
+        <TextView
+            android:id="@+id/tvFloatInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="等待中..."
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:minWidth="80dp"
+            android:maxWidth="160dp" />
+    </LinearLayout>
+
+    <!-- 按钮行 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnFloatAction"
+            android:layout_width="48dp"
+            android:layout_height="36dp"
+            android:text="走"
+            android:textSize="11sp"
+            android:padding="0dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btnFloatAuto"
+            android:layout_width="48dp"
+            android:layout_height="36dp"
+            android:text="自动"
+            android:textSize="10sp"
+            android:padding="0dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btnFloatCalibrate"
+            android:layout_width="48dp"
+            android:layout_height="36dp"
+            android:text="标定"
+            android:textSize="10sp"
+            android:padding="0dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btnFloatClose"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:text="X"
+            android:textSize="11sp"
+            android:padding="0dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp" />
+    </LinearLayout>
+
+</LinearLayout>

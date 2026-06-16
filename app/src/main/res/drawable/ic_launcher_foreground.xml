@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 棋盘背景 -->
+    <path
+        android:fillColor="#DEB887"
+        android:pathData="M20,20 L88,20 L88,88 L20,88 Z" />
+    <!-- 网格线 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#8B4513"
+        android:strokeWidth="1"
+        android:pathData="M20,27.5 L88,27.5 M20,35 L88,35 M20,42.5 L88,42.5 M20,50 L88,50 M20,57.5 L88,57.5 M20,65 L88,65 M20,72.5 L88,72.5 M20,80 L88,80" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#8B4513"
+        android:strokeWidth="1"
+        android:pathData="M27.5,20 L27.5,88 M35,20 L35,88 M42.5,20 L42.5,88 M50,20 L50,88 M57.5,20 L57.5,88 M65,20 L65,88 M72.5,20 L72.5,88 M80,20 L80,88" />
+    <!-- 帅字 -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M48,35 L60,35 L60,55 L48,55 Z" />
+    <!-- 将字 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M48,60 L60,60 L60,80 L48,80 Z" />
+</vector>
